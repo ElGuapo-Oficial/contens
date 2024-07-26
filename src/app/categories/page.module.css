@@ -1,0 +1,26 @@
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 65%;
+    flex-wrap: wrap;
+    /* background-color: pink; */
+}
+
+.sizeBanner {
+    position: relative;
+}
+
+.size {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 30px;
+}

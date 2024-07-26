@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .main {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+.items {
+    /* background-color: blue; */
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 10px;
+}
+
+/* .gridItem {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+} */
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    /* height: 100%; */
+    /* background-color: azure; */
+}

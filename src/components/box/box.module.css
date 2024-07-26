@@ -1,0 +1,29 @@
+.box {
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.box:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    padding: 5px;
+    /* border-bottom: 1px solid gainsboro; */
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    font-size: 18px;
+}
+
+.body.noTitle {
+    padding-top: 30px;
+}
+
+.body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 12px;
+}

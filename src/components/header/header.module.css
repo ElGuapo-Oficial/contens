@@ -1,0 +1,50 @@
+.header {
+    height: 100px;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid rgb(226, 226, 248);
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.header .logo {
+    background-color: white;
+    border-radius: 15px 0 0 15px;
+    padding: 10px;
+}
+
+.header nav {
+    height: 100%;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, white 100%), url('/containers.webp');
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+    /* display: flex; */
+}
+
+.header ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    list-style: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+    color: white;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1),  /* More transparent at the top */
+        rgba(0, 0, 0, 0.3),  /* Less transparent in the center */
+        rgba(0, 0, 0, 0.1)   /* More transparent at the bottom */
+      );
+    font-size: 20px;
+}
+
+.header ul li:hover {
+    /* color: black; */
+    transform: scale(1.2);
+}
